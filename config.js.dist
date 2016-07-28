@@ -1,0 +1,10 @@
+'use strict';
+var config = {
+  connectionLimit: 10,
+  host: database-host,
+  user: database-username,
+  password: database-password,
+  database: database-name
+};
+
+module.exports = config;
